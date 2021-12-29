@@ -21,4 +21,7 @@ struct homework1App: App {
     private func beforeTask2() {
              print("Before task - 2")
          }
+    private func task(){
+        print("task")
+    }
 }
