@@ -17,4 +17,7 @@ struct homework1App: App {
     private func task3() {
              print("Task - 3")
          }
+    private func cherryPick() {
+             print("CherryPick")
+         }
 }
