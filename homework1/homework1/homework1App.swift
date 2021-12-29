@@ -22,4 +22,7 @@ struct homework1App: App {
              private func printingTextForTasks(number: Int) -> String {
                  "Task - \(number)"
          }
+    private func task() {
+             print("Task")
+         }
 }
