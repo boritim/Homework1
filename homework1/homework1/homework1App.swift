@@ -14,4 +14,7 @@ struct homework1App: App {
             ContentView()
         }
     }
+    private func task2() {
+             print("Task - 2")
+         }
 }
