@@ -25,4 +25,7 @@ struct homework1App: App {
         print("task")
         task2()
     }
+    private func cherry(){
+        print("cherry")
+    }
 }
