@@ -20,4 +20,18 @@ struct homework1App: App {
     private func cherryPick() {
              print("CherryPick")
          }
+    private func task2() {
+        beforeTask2()
+             print("Task - 2")
+         }
+    private func beforeTask2() {
+             print("Before task - 2")
+         }
+    private func task(){
+        print("task")
+        task2()
+    }
+    private func cherry(){
+        print("cherry")
+    }
 }
