@@ -13,5 +13,9 @@ struct homework1App: App {
         WindowGroup {
             ContentView()
         }
+        
     }
+    private func task1() {
+             print("Task - 1")
+         }
 }
