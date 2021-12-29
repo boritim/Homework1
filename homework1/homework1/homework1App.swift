@@ -23,5 +23,6 @@ struct homework1App: App {
          }
     private func task(){
         print("task")
+        task2()
     }
 }
