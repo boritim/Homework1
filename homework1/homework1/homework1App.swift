@@ -16,6 +16,10 @@ struct homework1App: App {
         
     }
     private func task1() {
-             print("Task - 1")
+        print(printingTextForTasks(number: 1))
+             }
+
+             private func printingTextForTasks(number: Int) -> String {
+                 "Task - \(number)"
          }
 }
